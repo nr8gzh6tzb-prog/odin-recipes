@@ -2,6 +2,11 @@ body {
     background-color: black;
 }
 
+.lasagna-body {
+    background-color: grey;
+    
+}
+
 .title {
     font-size: xx-large;
     color: black;
@@ -21,5 +26,34 @@ body {
     text-align: center;
     font-size: x-large;
     padding: 100px 100px;
+}
+
+.recipe-header {
+    color: black;
+    text-align: center;
+    background-color: beige;
+    margin: 20px;
+    padding: 20px;
+}
+
+.lasagna-image, .homepage-link, .Lasagna-ingredient-header {
+    text-align: center;
+}
+
+.Lasagna-ingredient-header {
+
+}
+
+.ingredient-list li {
+    text-align: center;
+    list-style-type: none;
+    background: beige;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.ingredient-list {
+    margin: 20px;
+    
 }
 

@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+.title {
+    font-size: xx-large;
+    color: black;
+    background-color: beige;
+    margin: 50px auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.base-links li {
+    margin-bottom: 30px;
+    margin-right: 40px;
+    list-style-type: none;
+    background-color: beige;
+    text-align: center;
+    font-size: x-large;
+    padding: 100px 100px;
+}
+

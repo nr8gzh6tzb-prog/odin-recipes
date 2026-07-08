@@ -30,30 +30,67 @@ body {
 
 .recipe-header {
     color: black;
-    text-align: center;
+    text-align: right;
     background-color: beige;
-    margin: 20px;
-    padding: 20px;
+    margin-left: 75px;
+    padding: 50px;
+    
+    
 }
 
-.lasagna-image, .homepage-link, .Lasagna-ingredient-header {
+.lasagna-wrapper, .recipe-header {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.homepage-link {
     text-align: center;
+}
+
+.lasagna-wrapper {
+    text-align: left;
+    margin-left: 200px;
+}
+
+.lasagna-wrapper img {
+    height: 500px;
+    width: auto;
 }
 
 .Lasagna-ingredient-header {
+    text-align: center;
 
 }
 
 .ingredient-list li {
-    text-align: center;
     list-style-type: none;
     background: beige;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .ingredient-list {
-    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 39px;
     
 }
+
+.lasagna-steps-wrap {
+    list-style-position: inside;
+    text-align: center;
+    background-color: beige;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 44px;
+    margin-right: 44px;
+}
+    .lasagna-steps-wrap li {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    
+
 

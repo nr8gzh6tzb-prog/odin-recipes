@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: ;
 }
 
 .lasagna-body {
@@ -28,17 +28,16 @@ body {
     padding: 100px 100px;
 }
 
-.recipe-header {
+.recipe-header, .apple-recipe-header {
     color: black;
     text-align: right;
     background-color: beige;
     margin-left: 75px;
     padding: 50px;
     
-    
 }
 
-.lasagna-wrapper, .recipe-header {
+.lasagna-wrapper, .recipe-header, .apple-recipe-header {
     display: inline-block;
     vertical-align: middle;
 }
@@ -47,12 +46,12 @@ body {
     text-align: center;
 }
 
-.lasagna-wrapper {
+.lasagna-wrapper, .apple-pie-image {
     text-align: left;
     margin-left: 200px;
 }
 
-.lasagna-wrapper img {
+.lasagna-wrapper img, .apple-pie-image img {
     height: 500px;
     width: auto;
 }
@@ -91,6 +90,23 @@ body {
         padding-top: 10px;
     }
 
-    
+.apple-pie-header {
+    background-color: beige;
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 15px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}   
 
+.apple-pie-image {
+    display: inline-block;
+    vertical-align: middle;
+}
 
+.apple-recipe-header {
+    text-align: center;
+
+}

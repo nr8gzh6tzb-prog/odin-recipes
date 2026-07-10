@@ -37,7 +37,19 @@ body {
     
 }
 
-.lasagna-wrapper, .recipe-header, .apple-recipe-header {
+.True-fans-text {
+    color: black;
+    text-align: right;
+    background-color: beige;
+    padding: 50px;
+    padding-right: 15px;
+    padding-left: 20px;
+    width: 150px;
+    margin-right: 15px;
+    margin-left: 150px;
+}
+
+.lasagna-wrapper, .recipe-header, .apple-recipe-header, .True-fans-text, .kei-surprised, .is-food-image {
     display: inline-block;
     vertical-align: middle;
 }
@@ -51,9 +63,31 @@ body {
     margin-left: 200px;
 }
 
-.lasagna-wrapper img, .apple-pie-image img {
+.is-food-image {
+    text-align: left;
+    width: 500px;
+    margin-right: 15px;
+    
+}
+
+.kei-surprised {
+    text-align: right;
+    margin-right: 200px;
+}
+
+.lasagna-wrapper img, .apple-pie-image img, .kei-surprised img {
     height: 500px;
     width: auto;
+}
+
+.is-food-image img {
+    height: 500px;
+    width: 650px;
+    margin-right: 60px;
+}
+
+.kei-surprised {
+    width: 100px;
 }
 
 .Lasagna-ingredient-header {
@@ -76,7 +110,7 @@ body {
     
 }
 
-.lasagna-steps-wrap {
+.lasagna-steps-wrap, .yakisoba-steps-wrap {
     list-style-position: inside;
     text-align: center;
     background-color: beige;
@@ -90,7 +124,7 @@ body {
         padding-top: 10px;
     }
 
-.apple-pie-header {
+.apple-pie-header, .yakisoba-header {
     background-color: beige;
     text-align: center;
     text-decoration: underline;
@@ -110,3 +144,4 @@ body {
     text-align: center;
 
 }
+
